@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/coinDetailFragment"
         android:name="com.clean.cryptoclean.presentation.coin_detail.CoinDetailFragment"
-        android:label="fragment_coin_detail"
+        android:label="Информация"
         tools:layout="@layout/fragment_coin_detail" >
         <action
             android:id="@+id/action_coinDetailFragment_to_rootFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/rootFragment"
         android:name="com.clean.cryptoclean.presentation.RootFragment"
-        android:label="fragment_root"
+        android:label="Криптовалюты"
         tools:layout="@layout/fragment_root" >
         <action
             android:id="@+id/action_rootFragment_to_coinDetailFragment"

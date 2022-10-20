@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".presentation.coin_detail.CoinDetailFragment">
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,6 +20,7 @@
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:background="@color/white2"
             android:orientation="vertical"
             android:padding="10dp">
 
@@ -71,6 +71,7 @@
                 android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 android:padding="10dp"
+                android:background="@drawable/custom_material"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -81,7 +82,7 @@
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
-                    android:src="@drawable/img" />
+                    android:src="@drawable/img_back1" />
 
             </LinearLayout>
         </LinearLayout>

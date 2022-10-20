@@ -37,8 +37,8 @@ class RootFragment : Fragment() {
             tabLayout.tabIconTint = null
             TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, pos ->
                 when (pos) {
-                    0 -> tab.setIcon(R.drawable.dollar)
-                    1 -> tab.setIcon(R.drawable.euro)
+                    0 -> tab.setIcon(R.drawable.dollar2)
+                    1 -> tab.setIcon(R.drawable.euro2)
                 }
             }.attach()
         }

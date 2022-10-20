@@ -31,7 +31,7 @@ class ListCoinAdapter : RecyclerView.Adapter<ListCoinAdapter.ListViewHolder>() {
             root.setOnClickListener {
                 onItemClick.invoke(itemUsd)
             }
-            Glide.with(root.context).load(itemUsd.image).centerCrop().placeholder(R.drawable.img)
+            Glide.with(root.context).load(itemUsd.image).centerCrop().placeholder(R.drawable.img_back1)
                 .into(imageItemCoin)
             nameCryptoItemCoin.text = itemUsd.name
             symbolCryptoItemCoin.text = itemUsd.symbol

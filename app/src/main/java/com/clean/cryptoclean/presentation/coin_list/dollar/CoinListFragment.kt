@@ -12,6 +12,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.clean.cryptoclean.CoinApplication
 import com.clean.cryptoclean.R
 import com.clean.cryptoclean.common.Constants
@@ -87,6 +88,5 @@ class CoinListFragment : Fragment() {
             MAIN.navController.navigate(R.id.action_rootFragment_to_coinDetailFragment,bundle)
         }
     }
-
 
 }

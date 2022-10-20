@@ -12,4 +12,5 @@
     <string name="description">Описание:</string>
     <string name="history_of_crypto">Биткоин был...</string>
     <string name="category">Категории:</string>
+    <string name="list_crypto">Список критовалют</string>
 </resources>
